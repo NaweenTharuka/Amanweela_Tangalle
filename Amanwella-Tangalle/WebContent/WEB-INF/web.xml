@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Amanwella</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Connection</display-name>
+    <servlet-name>Connection</servlet-name>
+    <servlet-class>DBConnection.Connection</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Connection</servlet-name>
+    <url-pattern>/Connection</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  
+  
+  
+  
+    <servlet-name>supplier_sevlet</servlet-name>
+    <servlet-class>Controllers.supplier_sevlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>supplier_sevlet</servlet-name>
+    <url-pattern>/supplier_sevlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  
+  
+  
+    <description></description>
+    <display-name>login_sevlet</display-name>
+    <servlet-name>login_sevlet</servlet-name>
+    <servlet-class>Controllers.login_sevlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>login_sevlet</servlet-name>
+    <url-pattern>/login_sevlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  
+  
+  
+  
+    <description></description>
+    <display-name>res_sevlet</display-name>
+    <servlet-name>res_sevlet</servlet-name>
+    <servlet-class>Controllers.res_sevlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>res_sevlet</servlet-name>
+    <url-pattern>/res_sevlet</url-pattern>
+  </servlet-mapping>
+   <servlet>
+   
+   
+   
+   
+    <description></description>
+    <display-name>res_status_sevlet</display-name>
+    <servlet-name>res_status_sevlet</servlet-name>
+    <servlet-class>Controllers.res_status_sevlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>res_status_sevlet</servlet-name>
+    <url-pattern>/res_status_sevlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>reservationEdit_Servlet</display-name>
+    <servlet-name>reservationEdit_Servlet</servlet-name>
+    <servlet-class>Controllers.reservationEdit_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>reservationEdit_Servlet</servlet-name>
+    <url-pattern>/reservationEdit_Servlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>room_payment_view</display-name>
+    <servlet-name>room_payment_view</servlet-name>
+    <servlet-class>Controllers.room_payment_view</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>room_payment_view</servlet-name>
+    <url-pattern>/room_payment_view</url-pattern>
+  </servlet-mapping>
+  
+  
+   <!-- <servlet>
+    <description></description>
+    <display-name>Jasper</display-name>
+    <servlet-name>Jasper</servlet-name>
+    <servlet-class>kavindu.report.Jasper</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jasper</servlet-name>
+    <url-pattern>/Jasper</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Jasper2</display-name>
+    <servlet-name>Jasper2</servlet-name>
+    <servlet-class>kavindu.report.JaspJasper2er</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jasper2</servlet-name>
+    <url-pattern>/Jasper2</url-pattern>
+  </servlet-mapping> -->
+  
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>room_payment</display-name>
+    <servlet-name>room_payment</servlet-name>
+    <servlet-class>Controllers.room_payment</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>room_payment</servlet-name>
+    <url-pattern>/room_payment</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>staff_servlet</display-name>
+    <servlet-name>staff_servlet</servlet-name>
+    <servlet-class>Controllers.staff_servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>staff_servlet</servlet-name>
+    <url-pattern>/staff_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>edit_staff_sevlet</display-name>
+    <servlet-name>edit_staff_sevlet</servlet-name>
+    <servlet-class>Controllers.edit_staff_sevlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>edit_staff_sevlet</servlet-name>
+    <url-pattern>/edit_staff_sevlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>delete_staff_sevlet</display-name>
+    <servlet-name>delete_staff_sevlet</servlet-name>
+    <servlet-class>Controllers.delete_staff_sevlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>delete_staff_sevlet</servlet-name>
+    <url-pattern>/delete_staff_sevlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>inventory_servlet</display-name>
+    <servlet-name>inventory_servlet</servlet-name>
+    <servlet-class>Controllers.inventory_servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>inventory_servlet</servlet-name>
+    <url-pattern>/inventory_servlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>inventory_count</display-name>
+    <servlet-name>inventory_count</servlet-name>
+    <servlet-class>Controllers.inventory_count</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>inventory_count</servlet-name>
+    <url-pattern>/inventory_count</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>inventory_change</display-name>
+    <servlet-name>inventory_change</servlet-name>
+    <servlet-class>Controllers.inventory_change</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>inventory_change</servlet-name>
+    <url-pattern>/inventory_change</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>travel_sevlet</display-name>
+    <servlet-name>travel_sevlet</servlet-name>
+    <servlet-class>Controllers.travel_sevlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>travel_sevlet</servlet-name>
+    <url-pattern>/travel_sevlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>restaurant_sevlet</display-name>
+    <servlet-name>restaurant_sevlet</servlet-name>
+    <servlet-class>Controllers.restaurant_sevlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>restaurant_sevlet</servlet-name>
+    <url-pattern>/restaurant_sevlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+    <description></description>
+    <display-name>restaurant_sevlet2</display-name>
+    <servlet-name>restaurant_sevlet2</servlet-name>
+    <servlet-class>Controllers.restaurant_sevlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>restaurant_sevlet2</servlet-name>
+    <url-pattern>/restaurant_sevlet2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>restaurant_sevlet1</display-name>
+    <servlet-name>restaurant_sevlet1</servlet-name>
+    <servlet-class>Controllers.restaurant_sevlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>restaurant_sevlet1</servlet-name>
+    <url-pattern>/restaurant_sevlet1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>restaurant_sev1</display-name>
+    <servlet-name>restaurant_sev1</servlet-name>
+    <servlet-class>Controllers.restaurant_sev1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>restaurant_sev1</servlet-name>
+    <url-pattern>/restaurant_sev1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>restaurant_sev2</display-name>
+    <servlet-name>restaurant_sev2</servlet-name>
+    <servlet-class>Controllers.restaurant_sev2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>restaurant_sev2</servlet-name>
+    <url-pattern>/restaurant_sev2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>restaurant_test</display-name>
+    <servlet-name>restaurant_test</servlet-name>
+    <servlet-class>Controllers.restaurant_test</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>restaurant_test</servlet-name>
+    <url-pattern>/restaurant_test</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>restaurant_sev_food_change</display-name>
+    <servlet-name>restaurant_sev_food_change</servlet-name>
+    <servlet-class>Controllers.restaurant_sev_food_change</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>restaurant_sev_food_change</servlet-name>
+    <url-pattern>/restaurant_sev_food_change</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>restaurant_sev_liqour_change</display-name>
+    <servlet-name>restaurant_sev_liqour_change</servlet-name>
+    <servlet-class>Controllers.restaurant_sev_liqour_change</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>restaurant_sev_liqour_change</servlet-name>
+    <url-pattern>/restaurant_sev_liqour_change</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  <servlet>
+    <description></description>
+    <display-name>inventory_count</display-name>
+    <servlet-name>delivery_sev</servlet-name>
+    <servlet-class>Controllers.delivery_sev</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>delivery_sev</servlet-name>
+    <url-pattern>/delivery_sev</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>delivery_del_sev</display-name>
+    <servlet-name>delivery_del_sev</servlet-name>
+    <servlet-class>Controllers.delivery_del_sev</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>delivery_del_sev</servlet-name>
+    <url-pattern>/delivery_del_sev</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>delivery_details</display-name>
+    <servlet-name>delivery_details</servlet-name>
+    <servlet-class>Controllers.delivery_details</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>delivery_details</servlet-name>
+    <url-pattern>/delivery_details</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <!-- <servlet>
+    <description></description>
+    <display-name>contact_us</display-name>
+    <servlet-name>contact_us</servlet-name>
+    <servlet-class>Controllers.contact_us</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>contact_us</servlet-name>
+    <url-pattern>/contact_us</url-pattern>
+  </servlet-mapping> -->
+  
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>report_supplier</display-name>
+    <servlet-name>report_supplier</servlet-name>
+    <servlet-class>Controllers.report_supplier</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>report_supplier</servlet-name>
+    <url-pattern>/report_supplier</url-pattern>
+  </servlet-mapping>
+
+
+ 
+ 
+  <servlet>
+    <description></description>
+    <display-name>staff_sal</display-name>
+    <servlet-name>staff_sal</servlet-name>
+    <servlet-class>Controllers.staff_sal</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>staff_sal</servlet-name>
+    <url-pattern>/staff_sal</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>staff_atten</display-name>
+    <servlet-name>staff_atten</servlet-name>
+    <servlet-class>Controllers.staff_atten</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>staff_atten</servlet-name>
+    <url-pattern>/staff_atten</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>staff_add_att</display-name>
+    <servlet-name>staff_add_att</servlet-name>
+    <servlet-class>Controllers.staff_add_att</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>staff_add_att</servlet-name>
+    <url-pattern>/staff_add_att</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>attendance</display-name>
+    <servlet-name>attendance</servlet-name>
+    <servlet-class>Controllers.attendance</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>attendance</servlet-name>
+    <url-pattern>/attendance</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>attendance_servlet</display-name>
+    <servlet-name>attendance_servlet</servlet-name>
+    <servlet-class>Controllers.attendance_servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>attendance_servlet</servlet-name>
+    <url-pattern>/attendance_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>salary_servlet</display-name>
+    <servlet-name>salary_servlet</servlet-name>
+    <servlet-class>Controllers.salary_servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>salary_servlet</servlet-name>
+    <url-pattern>/salary_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>salary_view</display-name>
+    <servlet-name>salary_view</servlet-name>
+    <servlet-class>Controllers.salary_view</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>salary_view</servlet-name>
+    <url-pattern>/salary_view</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>leaves_servlet</display-name>
+    <servlet-name>leaves_servlet</servlet-name>
+    <servlet-class>Controllers.leaves_servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>leaves_servlet</servlet-name>
+    <url-pattern>/leaves_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>staff_lea</display-name>
+    <servlet-name>staff_lea</servlet-name>
+    <servlet-class>Controllers.staff_lea</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>staff_lea</servlet-name>
+    <url-pattern>/staff_lea</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+<!-- 
+
+
+<servlet>
+    <description></description>
+    <display-name>event_edit_delete</display-name>
+    <servlet-name>event_edit_delete</servlet-name>
+    <servlet-class>Controllers.event_edit_delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>event_edit_delete</servlet-name>
+    <url-pattern>/event_edit_delete</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>event_list</display-name>
+    <servlet-name>event_list</servlet-name>
+    <servlet-class>Controllers.event_list</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>event_list</servlet-name>
+    <url-pattern>/event_list</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>event_servlet</display-name>
+    <servlet-name>event_servlet</servlet-name>
+    <servlet-class>Controllers.event_servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>event_servlet</servlet-name>
+    <url-pattern>/event_servlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>event_sev2</display-name>
+    <servlet-name>event_sev2</servlet-name>
+    <servlet-class>Controllers.event_sev2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>event_sev2</servlet-name>
+    <url-pattern>/event_sev2</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>event_sev3</display-name>
+    <servlet-name>event_sev3</servlet-name>
+    <servlet-class>Controllers.event_sev3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>event_sev3</servlet-name>
+    <url-pattern>/event_sev3</url-pattern>
+  </servlet-mapping> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <servlet>
+    <description></description>
+    <display-name>contactusDelete</display-name>
+    <servlet-name>contactusDelete</servlet-name>
+    <servlet-class>Controllers.contactusDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>contactusDelete</servlet-name>
+    <url-pattern>/contactusDelete</url-pattern>
+  </servlet-mapping> -->
+
+
+
+<!-- <servlet>
+    <description></description>
+    <display-name>contact_us_edit</display-name>
+    <servlet-name>contact_us_edit</servlet-name>
+    <servlet-class>Controllers.contact_us_edit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>contact_us_edit</servlet-name>
+    <url-pattern>/contact_us_edit</url-pattern>
+  </servlet-mapping> -->
+  
+  
+  
+  </web-app>

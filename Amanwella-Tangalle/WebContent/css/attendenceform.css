@@ -1,0 +1,129 @@
+
+    /* Injected CSS Code */
+/*PREFERENCES STYLE*/
+    .form-all {
+      font-family: Didact Gothic, sans-serif;
+    }
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-family: Didact Gothic, sans-serif;
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-family: Didact Gothic, sans-serif;
+    }
+    .form-header-group {
+      font-family: Didact Gothic, sans-serif;
+    }
+    .form-label {
+      font-family: Didact Gothic, sans-serif;
+    }
+  
+    .form-label.form-label-auto {
+      
+    display: inline-block;
+    float: left;
+    text-align: left;
+  
+    }
+  
+    .form-line {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+  
+    .form-all {
+      width: 570px;
+    }
+  
+    .form-label-left,
+    .form-label-right,
+    .form-label-left.form-label-auto,
+    .form-label-right.form-label-auto {
+      width: 150px;
+    }
+  
+    .form-all {
+      font-size: 18px
+    }
+    .form-all .qq-upload-button,
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-size: 18px
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-size: 18px
+    }
+  
+    .supernova .form-all, .form-all {
+      background-color: #4e4e4e;
+      border: 1px solid transparent;
+    }
+  
+    .form-all {
+      color: #cccccc;
+    }
+    .form-header-group .form-header {
+      color: rgb(255, 255, 255);
+    }
+    .form-header-group .form-subHeader {
+      color: #cccccc;
+    }
+    .form-label-top,
+    .form-label-left,
+    .form-label-right,
+    .form-html,
+    .form-checkbox-item label,
+    .form-radio-item label {
+      color: #cccccc;
+    }
+    .form-sub-label {
+      color: #e6e6e6;
+    }
+  
+    .supernova {
+      background-color: #3e3e3e;
+    }
+    .supernova body {
+      background: transparent;
+    }
+  
+    .form-textbox,
+    .form-textarea,
+    .form-radio-other-input,
+    .form-checkbox-other-input,
+    .form-captcha input,
+    .form-spinner input {
+      background-color: #3e3e3e;
+    }
+  
+      .supernova {
+        height: 100%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: center top;
+      }
+      .supernova {
+        background-image: url("https://shots.jotform.com/elton/pattern/pattern-eo2z.png");
+      }
+      #stage {
+        background-image: url("https://shots.jotform.com/elton/pattern/pattern-eo2z.png");
+      }
+    
+    .form-all {
+      background-image: none;
+    }
+  
+  .ie-8 .form-all:before { display: none; }
+  .ie-8 {
+    margin-top: auto;
+    margin-top: initial;
+  }
+  
+  /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/
+    /* Injected CSS Code */

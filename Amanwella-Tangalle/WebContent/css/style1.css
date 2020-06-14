@@ -1,0 +1,142 @@
+
+body{
+$white: #fff;
+$gray: gray;
+$red: red;
+$btn-bg-color: #4889ff;
+$btn-hover-bg-color: #83AFFF;
+$main-color: #2f4f4f;
+}
+.wc-calendar {
+  background-color: $white;
+}
+
+  .wc-calendar__header {
+    position: relative;
+    height: 40px;
+    border-bottom: 2px solid gray;
+    overflow: hidden;
+    text-align: center;
+  }
+    .wc-calendar__header__date {
+      display: inline-block;
+    }
+
+  .wc-calendar__btn {
+    height: 32px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 5px;
+    color: $white;
+    font-size: 12px;
+    line-height: 32px;
+    background-color: $btn-bg-color;
+    cursor: pointer;
+
+    &:focus, &:active {
+      outline: none;
+    }
+
+    &:hover {
+      background-color: $btn-hover-bg-color;
+    }
+  }
+    .wc-calendar__btn--prev {
+      float: left;
+    }
+    .wc-calendar__btn--next {
+      float: right;
+    }
+
+  .wc-calendar__days-names,
+  .wc-calendar__days-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+  }
+
+  .wc-calendar__days-names {
+    border-bottom: 1px solid $main-color;
+  }
+
+  .wc-calendar__days-names__item,
+  .wc-calendar__days-list__item {
+    width: 14.2%;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .wc-calendar__days-names__item {
+    padding-top: 10px;
+  }
+
+  .wc-calendar__days-list__item {
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+  }
+    .wc-calendar__days-list__item--active {
+      color: $white;
+      background-color: $btn-bg-color;
+    }
+    .wc-calendar__days-list__item--prev-month,
+    .wc-calendar__days-list__item--next-month {
+      color: $gray;
+    }
+      .wc-calendar__days-list__item--active.wc-calendar__days-list__item--prev-month,
+      .wc-calendar__days-list__item--active.wc-calendar__days-list__item--next-month {
+        border: 1px solid $btn-bg-color;
+        background-color: $white;
+      }
+
+/* testing styles */
+.red-class {
+  background-color: $red;
+}
+.gray-class {
+  background-color: $gray;
+}
+.calendar-form {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid $gray;
+}
+  .control-group + .control-group {
+    margin-top: 5px;
+  }
+  .control-label {
+    display: inline-block;
+    width: 94px;
+    font-size: 14px;
+  }
+  .control-input {
+    width: 197px;
+  }
+  
+  
+ .button {
+  background-color: blue; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin-right:200px;
+  border-radius:15px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid blue;
+  margin-left:190px;
+}
+
+.button1:hover {
+  background-color: blue;
+  color: white;
+}

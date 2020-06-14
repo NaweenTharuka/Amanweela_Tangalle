@@ -1,0 +1,309 @@
+
+
+
+
+.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.spad {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+
+
+/*---------------------
+  Room Availability
+-----------------------*/
+
+.room-check {
+	padding-bottom: 52px;
+}
+
+.room-item {
+	margin-bottom: 40px;
+	-webkit-box-shadow: 2px 15px 75px 6px #ECECEC;
+	box-shadow: 2px 15px 75px 6px #ECECEC;
+}
+
+.room-item .room-pic-item.owl-carousel .owl-nav button[type=button] {
+	color: #AE9548;
+	font-size: 26px;
+	height: 69px;
+	width: 52px;
+	background: #353535;
+	line-height: 72px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-webkit-transform: translateY(-34.5px);
+	transform: translateY(-34.5px);
+	
+}
+
+.room-item .room-pic-item.owl-carousel .owl-nav button[type=button].owl-next {
+	left: auto;
+	right: 0;
+}
+
+.room-item .room-text {
+	overflow: hidden;
+	padding-left: 35px;
+	padding-top: 35px;
+	padding-right: 45px;
+	padding-bottom: 37px;
+}
+
+.room-item .room-text .room-title {
+	overflow: hidden;
+	margin-bottom: 36px;
+}
+
+.room-item .room-text .room-title h2 {
+	float: left;
+	font-size: 36px;
+	color: #2d220f;
+}
+
+.room-item .room-text .room-title .room-price {
+	float: right;
+	position: relative;
+}
+
+.room-item .room-text .room-title .room-price span {
+	position: absolute;
+	left: -40px;
+	bottom: 7px;
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	line-height: 14px;
+	color: #2d220f;
+}
+
+.room-item .room-text .room-title .room-price h2 {
+	font-size: 36px;
+	color: #081624;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+
+.room-item .room-text .room-features {
+	overflow: hidden;
+}
+
+.room-item .room-text .room-features .room-info {
+	float: left;
+	text-align: center;
+	margin-right: 50px;
+}
+
+.room-item .room-text .room-features .room-info.last {
+	margin-right: 0;
+}
+
+.room-item .room-text .room-features .room-info i {
+	display: block;
+	color: #ae9548;
+	margin-bottom: -4px;
+}
+
+.room-item .room-text .room-features .room-info span {
+	display: block;
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	color: #2d220f;
+}
+
+.check-form {
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 55px;
+	padding-bottom: 61px;
+	border: 2px solid #AE9548;
+	margin-bottom: 40px;
+	border-radius:10px;
+}
+
+.check-form h2 {
+	font-size: 36px;
+	font-weight: 400;
+	color: #081624;
+	margin-bottom: 40px;
+}
+
+.check-form .datepicker {
+	margin-bottom: 52px;
+}
+
+.check-form .datepicker .date-select {
+	display: inline-block;
+	position: relative;
+	margin-right: 56px;
+}
+
+.check-form .datepicker .date-select.to {
+	margin-right: 0;
+}
+
+.check-form .datepicker .date-select p {
+	font-size: 14px;
+	color: #081624;
+	margin-bottom: 2px;
+	font-weight: 400;
+}
+
+.check-form .datepicker .date-select input {
+	font-size: 14px;
+	font-weight: 600;
+	color: #242424;
+	font-family: "Open Sans", sans-serif;
+	text-transform: uppercase;
+	opacity: 0.5;
+	border: none;
+	letter-spacing: 1.2px;
+	height: 48px;
+	border-bottom: 1px solid #888888;
+	width: 168px;
+	display: block;
+}
+
+.check-form .datepicker .date-select img {
+	position: absolute;
+	right: 0;
+	bottom: 16px;
+}
+
+.check-form .room-quantity {
+	margin-bottom: 34px;
+}
+
+.check-form .room-quantity .single-quantity {
+	display: inline-block;
+	margin-right: 105px;
+}
+
+.check-form .room-quantity .single-quantity.last {
+	margin-right: 0;
+}
+
+.check-form .room-quantity .single-quantity p {
+	font-size: 14px;
+	color: #081624;
+	margin-bottom: 2px;
+	font-weight: 400;
+}
+
+.check-form .room-quantity .single-quantity .pro-qty {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #8C9299;
+}
+
+
+
+.check-form .room-quantity .single-quantity .pro-qty .qtybtn {
+	float: left;
+	width: 15px;
+	text-align: center;
+	cursor: pointer;
+	display: block;
+	color: #081624;
+	font-size: 18px;
+	letter-spacing: 0.4px;
+	font-weight: 300;
+	
+}
+
+.check-form .room-quantity .single-quantity .pro-qty input {
+	width: 28px;
+	border: none;
+	float: left;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #081624;
+	opacity: 0.25;
+	letter-spacing: 0.4px;
+	margin-top: -2px;
+	
+}
+
+.check-form .room-selector {
+	display: block;
+}
+
+.check-form .room-selector p {
+	font-size: 14px;
+	color: #242424;
+	margin-bottom: 2px;
+	font-weight: 400;
+}
+
+.check-form .room-selector .nice-select {
+	border-radius: 0;
+	border-bottom: 1px solid #888888;
+	font-size: 14px;
+	height: 46px;
+	line-height: 46px;
+	width: 100%;
+	font-size: 14px;
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 55px;
+}
+
+.check-form .room-selector .nice-select span {
+	color: #242424;
+	text-transform: uppercase;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	opacity: 0.5;
+}
+
+.check-form .room-selector select {
+	width: 100%;
+}
+
+.check-form button {
+	font-size: 18px;
+	color: #081624;
+	text-transform: uppercase;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 900;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	position: relative;
+}
+
+
+
+.button1 {
+	margin-left:60px;
+	padding-left:50px;
+}
+
+.check-form buttoni {
+	line-height: 16px;
+	margin-top: 6px;
+	position: absolute;
+	right: -45px;
+	bottom: 7px;
+	font-size: 31px;
+	color: #AE9548;
+}
+
+.nice-select {
+	border: 0;
+}
+
+
+
+
+

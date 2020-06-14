@@ -1,0 +1,46 @@
+body{
+	background-image: url("../images/room-slider/aa.JPG");
+	 background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+     
+}
+.check-form{
+	background-image:linear-gradient(lightgreen,white,white,white,lightblue) ;
+	opacity:0.9;
+		
+}
+.bs{
+  background-color: yellow; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:8px;
+}
+.ss{
+  background-color: yellow; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:8px;
+}
+.ff{
+  background-color: yellow; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:8px;
+}

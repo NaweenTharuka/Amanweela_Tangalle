@@ -1,0 +1,17 @@
+body{
+	background-image: url("../images/room-slider/vv.JPG");
+	 background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+}
+.check-form{
+	background-image:linear-gradient(lightgreen,white,white,white,lightblue) ;
+	opacity:0.9;
+}
+
+.room-text{
+	background-image:linear-gradient(lightgreen,white,white,white,lightblue) ;
+	opacity:0.9;
+	
+}

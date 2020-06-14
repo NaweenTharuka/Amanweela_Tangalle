@@ -1,0 +1,1 @@
+<% response.sendRedirect("supplier_sevlet?action=LIST"); %>

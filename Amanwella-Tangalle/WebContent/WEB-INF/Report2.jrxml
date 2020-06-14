@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.12.2.final using JasperReports Library version 3.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Report2" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM  amanwella.deliveries]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="deliveries"/>
+	</field>
+	<field name="supplier_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="supplier_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="deliveries"/>
+	</field>
+	<field name="date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="date"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="deliveries"/>
+	</field>
+	<field name="item1" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="item1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="deliveries"/>
+	</field>
+	<field name="item1_costPer1" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="item1_costPer1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="deliveries"/>
+	</field>
+	<field name="item1_quantity" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="item1_quantity"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="deliveries"/>
+	</field>
+	<field name="item2" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="item2"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="deliveries"/>
+	</field>
+	<field name="item2_costPer1" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="item2_costPer1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="deliveries"/>
+	</field>
+	<field name="item2_quantity" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="item2_quantity"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="deliveries"/>
+	</field>
+	<field name="item3" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="item3"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="deliveries"/>
+	</field>
+	<field name="item3_costPer1" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="item3_costPer1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="deliveries"/>
+	</field>
+	<field name="item3_quantity" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="item3_quantity"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="deliveries"/>
+	</field>
+	<field name="total" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="total"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="deliveries"/>
+	</field>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="63">
+			<staticText>
+				<reportElement x="80" y="10" width="441" height="40"/>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Delivery Information]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="21"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="49">
+			<staticText>
+				<reportElement x="110" y="0" width="120" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="beda0f3c-125c-4931-9de6-7317dd8ffa58"/>
+				</reportElement>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[SUPPLIER ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="0" width="200" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e79a0f14-2133-4870-a7be-4fdd161af87e"/>
+				</reportElement>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ITEMS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="0" width="125" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ee7e285c-269a-4028-932a-4f6a69e57b3f"/>
+				</reportElement>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TOTAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-2" y="0" width="112" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2b7b71f4-6579-4ce1-afb2-eed34197e49e"/>
+				</reportElement>
+				<textElement textAlignment="Center" lineSpacing="Single">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATE]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="33">
+			<textField>
+				<reportElement x="110" y="0" width="120" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="beda0f3c-125c-4931-9de6-7317dd8ffa58"/>
+				</reportElement>
+				<textElement textAlignment="Center" lineSpacing="Single"/>
+				<textFieldExpression><![CDATA[$F{supplier_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="0" width="70" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2bd21b26-831f-4ae2-8d8e-46d65cea6968"/>
+				</reportElement>
+				<textElement textAlignment="Right" lineSpacing="Single"/>
+				<textFieldExpression><![CDATA[$F{item1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="0" width="60" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e79a0f14-2133-4870-a7be-4fdd161af87e"/>
+				</reportElement>
+				<textElement textAlignment="Center" lineSpacing="Single"/>
+				<textFieldExpression><![CDATA[$F{item2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="0" width="70" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9a3b6a41-6976-4772-aeb0-11a462c865f0"/>
+				</reportElement>
+				<textElement textAlignment="Left" lineSpacing="Single"/>
+				<textFieldExpression><![CDATA[$F{item3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="0" width="125" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ee7e285c-269a-4028-932a-4f6a69e57b3f"/>
+				</reportElement>
+				<textElement textAlignment="Center" lineSpacing="Single"/>
+				<textFieldExpression><![CDATA[$F{total}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-2" y="0" width="112" height="30">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2b7b71f4-6579-4ce1-afb2-eed34197e49e"/>
+				</reportElement>
+				<textElement textAlignment="Center" lineSpacing="Single"/>
+				<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54"/>
+	</pageFooter>
+	<summary>
+		<band height="42"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,25 @@
+ 
+    .form-label-left{
+        width:150px;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px;
+    }
+    body, html{
+        margin:0;
+        padding:0;
+        background:#4e4e4e;
+    }
+
+    .form-all{
+        margin:0px auto;
+        padding-top:0px;
+        width:570px;
+        color:#cccccc !important;
+        font-family:'Didact Gothic';
+        font-size:18px;
+    }

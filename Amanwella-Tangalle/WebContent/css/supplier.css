@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+table {
+	margin-top: 20px;
+	margin-left:250px;
+	margin-right:55px;
+}
+.add_new_supplier_btn {
+	margin-top: 70px;
+	padding-bottom: 30px;
+	
+	margin-right:45px;
+}
+.add_supplier_form {
+		padding-left:250px;
+		padding-right:250px;
+		padding-top:80px;
+}
+.add_suplier_btn {
+	padding-top: 14px;
+}
+.gender_male {
+	padding-top: 7px;
+	padding-bottom: 5px;
+}
